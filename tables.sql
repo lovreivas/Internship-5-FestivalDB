@@ -152,3 +152,12 @@ CREATE INDEX idx_performances_festival ON performances (festival_id);
 CREATE INDEX idx_performances_stage ON performances (stage_id);
 CREATE INDEX idx_visitors_city ON visitors (city);
 CREATE INDEX idx_tickets_festival ON tickets (festival_id);
+
+ALTER TABLE stages
+DROP CONSTRAINT stages_festival_id_name_key;
+
+ALTER TABLE workshop_registrations
+DROP CONSTRAINT workshop_registrations_workshop_id_visitor_id_key;
+
+ALTER TABLE membership_cards
+DROP CONSTRAINT membership_cards_visitor_id_key
