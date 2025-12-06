@@ -4001,6 +4001,14 @@ insert into performances (id, festival_id, stage_id, performer_id, start_ts, end
 insert into performances (id, festival_id, stage_id, performer_id, start_ts, end_ts, expected_attendance) values (998, 78, 220, 127, '10/8/2025', '10/9/2025', 90);
 insert into performances (id, festival_id, stage_id, performer_id, start_ts, end_ts, expected_attendance) values (999, 973, 331, 788, '12/22/2024', '12/23/2024', 97);
 insert into performances (id, festival_id, stage_id, performer_id, start_ts, end_ts, expected_attendance) values (1000, 393, 884, 923, '7/21/2025', '7/22/2025', 199);
+insert into performances (id, festival_id, stage_id, performer_id, start_ts, end_ts, expected_attendance) values (1001, 368, 683, 391, '3/21/2025', '3/22/2025', 11000);
+insert into performances (id, festival_id, stage_id, performer_id, start_ts, end_ts, expected_attendance) values (1002, 640, 791, 38, '1/10/2025', '1/11/2025', 10500);
+insert into performances (id, festival_id, stage_id, performer_id, start_ts, end_ts, expected_attendance) values (1003, 575, 38, 914, '6/22/2025', '6/23/2025', 13004);
+insert into performances (id, festival_id, stage_id, performer_id, start_ts, end_ts, expected_attendance) values (1004, 342, 598, 108, '3/16/2025', '3/17/2025', 20125);
+insert into performances (id, festival_id, stage_id, performer_id, start_ts, end_ts, expected_attendance) values (1005, 102, 989, 888, '8/8/2025', '8/9/2025', 11111);
+
+
+
 
 insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (1, 'Dall', 'Fermin', '5/23/1961', 'Ntobo', 'dfermin0@wired.com', 'Indonesia');
 insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (2, 'Rory', 'Wolfenden', '3/29/1946', 'Bajina Bašta', 'rwolfenden1@google.co.uk', 'Serbia');
@@ -5002,6 +5010,12 @@ insert into visitors (id, first_name, last_name, date_of_birth, city, email, cou
 insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (998, 'Arvy', 'Heffy', '3/11/2004', 'Carleton-sur-Mer', 'aheffyrp@fotki.com', 'Canada');
 insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (999, 'Pippo', 'Bril', '9/25/2009', 'Griboyedov', 'pbrilrq@baidu.com', 'Armenia');
 insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (1000, 'Zaccaria', 'Mitchall', '11/29/1992', 'Xiyuan', 'zmitchallrr@ft.com', 'China');
+insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (1001,  'Ante', 'Jurić', '11/29/1993', 'Split', 'zmitchallgmail.com', 'Hrvatska');
+insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (1002, 'Jure', 'Jakić', '11/29/1994', 'Split', 'zgfsgsllrr@gmail.com', 'Hrvatska');
+insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (1003, 'Anđa', 'Prč', '11/29/1995', 'Split', 'anda@gmail.com', 'Hrvatska');
+insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (1004, 'Ivan', 'Radić', '11/29/1996', 'Split', 'jaje@gmail.com', 'Hrvatska');
+insert into visitors (id, first_name, last_name, date_of_birth, city, email, country) values (1005, 'Bepo', 'Roje', '11/29/1997', 'Split', 'oblak@gmail.com', 'Hrvatska');
+
 
 insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (1, 206, 'festivalska', 97, 'pristup backstageu', true, '8/14/2025');
 insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (2, 836, 'jednodnevna', 15, 'pristup backstageu', true, '3/14/2025');
@@ -6003,6 +6017,12 @@ insert into tickets (id, festival_id, type, price, description, valid_for_entire
 insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (998, 825, 'kamp', 24, 'pristup kampu', false, '7/20/2025');
 insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (999, 984, 'kamp', 76, 'pristup kampu', true, '11/3/2025');
 insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (1000, 706, 'festivalska', 88, 'pristup kampu', false, '11/15/2025');
+insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (1001, 706, 'festivalska', 125, 'festivalska', false, '11/15/2025');
+insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (1002, 706, 'festivalska', 130, 'VIP', false, '11/15/2025');
+insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (1003, 706, 'festivalska', 150, 'pristup kampu', false, '11/15/2025');
+insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (1004, 706, 'festivalska', 202, 'festivalska', false, '11/15/2025');
+insert into tickets (id, festival_id, type, price, description, valid_for_entire_festival, valid_day) values (1005, 706, 'festivalska', 301, 'pristup kampu', false, '11/15/2025');
+
 
 insert into orders (id, visitor_id, festival_id, purchase_ts, total_amount) values (1, 912, 925, '3/19/2025', 381.23);
 insert into orders (id, visitor_id, festival_id, purchase_ts, total_amount) values (2, 80, 742, '12/12/2024', 87.09);

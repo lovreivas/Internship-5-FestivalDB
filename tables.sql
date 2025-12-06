@@ -148,10 +148,6 @@ CREATE TABLE membership_cards (
     status VARCHAR(20) NOT NULL CHECK (status IN ('aktivan','istekao'))
 );
 
-CREATE INDEX idx_performances_festival ON performances (festival_id);
-CREATE INDEX idx_performances_stage ON performances (stage_id);
-CREATE INDEX idx_visitors_city ON visitors (city);
-CREATE INDEX idx_tickets_festival ON tickets (festival_id);
 
 ALTER TABLE stages
 DROP CONSTRAINT stages_festival_id_name_key;
